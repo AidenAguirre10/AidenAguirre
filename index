@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiden — Industrial &amp; Transportation Designer</title>
+  <meta name="description" content="Portfolio and resume of Aiden, an industrial designer working toward transportation design, grounded in CMF and materials design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ LEFT PANEL: identity + resume ============ -->
+  <aside class="panel">
+    <div class="panel-top">
+      <h1 class="name">Aiden</h1>
+      <p class="role">Industrial Designer<br>CMF &amp; Materials — moving toward transportation design</p>
+    </div>
+
+    <nav class="panel-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="panel-bottom">
+      <a class="btn" href="assets/resume.pdf" download>Download resume</a>
+      <ul class="panel-links">
+        <li><a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ============ RIGHT: scrolling content ============ -->
+  <main>
+
+    <section id="work" class="section">
+      <p class="section-index">Selected work</p>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Meridian</h2>
+          <span class="project-tag">Transportation Design</span>
+        </div>
+        <p class="project-brief">A single-seat, three-wheeled commuter vehicle concept designed around the I-5 corridor — built as part of a portfolio sequence for graduate transportation design applications.</p>
+        <div class="project-media">
+          <div class="media-placeholder">Add renders / process shots here</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Ariat CMF Internship</h2>
+          <span class="project-tag">Color &amp; Materials</span>
+        </div>
+        <p class="project-brief">Color &amp; Materials Design internship at Ariat International, contributing to the Fall 2026 footwear lineup, including the Ariat Terrain hiking boot.</p>
+        <div class="project-media">
+          <div class="media-placeholder">Add project images here</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Omniform</h2>
+          <span class="project-tag">Automotive Seating</span>
+        </div>
+        <p class="project-brief">Adaptive automotive seating concept addressing anthropometric bias in how vehicle interiors are designed and fitted.</p>
+        <div class="project-media">
+          <div class="media-placeholder">Add renders here</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>AeroGills</h2>
+          <span class="project-tag">Concept</span>
+        </div>
+        <p class="project-brief">Short description of the project goes here — replace with your own framing.</p>
+        <div class="project-media">
+          <div class="media-placeholder">Add renders here</div>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-index">About</p>
+      <p class="about-text">
+        I'm an industrial designer based in the San Francisco Bay Area with a background in Color, Materials, and Finish (CMF) design. My design identity is grounded in CMF, and I'm working toward a career as an exterior or interior automotive designer — transportation design is where I'm headed.
+      </p>
+      <p class="about-text">
+        Alongside client and portfolio work, I freelance on product rendering and CMF projects, and I keep building studio skills through coursework in transportation, furniture, and soft goods design.
+      </p>
+    </section>
+
+    <section id="resume" class="section">
+      <p class="section-index">Resume</p>
+
+      <div class="resume-block">
+        <h3>Experience</h3>
+        <div class="resume-item">
+          <div class="resume-item-head">
+            <strong>Color &amp; Materials Design Intern</strong>
+            <span>Ariat International — Summer 2024</span>
+          </div>
+          <p>Contributed to the Fall 2026 footwear lineup, including the Ariat Terrain hiking boot.</p>
+        </div>
+        <div class="resume-item">
+          <div class="resume-item-head">
+            <strong>Freelance Designer</strong>
+            <span>Upwork</span>
+          </div>
+          <p>Product rendering and CMF work across skate footwear, storage products, and headwear.</p>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <h3>Education</h3>
+        <div class="resume-item">
+          <div class="resume-item-head">
+            <strong>B.S., Industrial Design</strong>
+            <span>Product Design focus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="section-index">Contact</p>
+      <p class="about-text">Open to opportunities in automotive and transportation design, and CMF roles. Best way to reach me:</p>
+      <a class="btn" href="mailto:you@example.com">you@example.com</a>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Aiden. Built by hand.</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
